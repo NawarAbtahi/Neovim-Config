@@ -1,4 +1,4 @@
-# Neovim-Config
+# <center> Neovim Config </center>
 
 Neovim configuration of BuildsPixld --
 
