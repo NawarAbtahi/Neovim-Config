@@ -16,7 +16,7 @@ To use this config you have to download neovim in your system.
 
 If you are on windows, get the [chocolatey](https://chocolatey.org/) package manager.
 
-Use `choco install neovim`.
+Open your terminal and use `choco install neovim`.
 
 Then, go to `C:\Users\user\AppData\Local` and make a `nvim` directory.
 Inside the `nvim` directory unzip the config file.
