@@ -1,4 +1,6 @@
-# <center> Neovim Config </center>
+<div align="center">
+#Neovim Config
+</div>
 
 Neovim configuration of BuildsPixld --
 
