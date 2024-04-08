@@ -19,7 +19,7 @@ If you are on windows, get the [chocolatey](https://chocolatey.org/) package man
 Open your terminal and use `choco install neovim`.
 
 Then, go to `C:\Users\user\AppData\Local` and make a `nvim` directory.
-Inside the `nvim` directory unzip the config file.
+Inside the `nvim` directory unzip the config file (here is the zip file [releases](https://github.com/BuildsPixld/Neovim-Config/releases/tag/neovim-config)).
 
 --To open neovim
 Open your terminal. type `nvim`.
