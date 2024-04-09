@@ -4,26 +4,26 @@
 
 Neovim configuration of BuildsPixld --
 
-This is a neovim config of mine, made with the help of the tutorial series of [typecraft](https://www.youtube.com/@typecraft_dev) ([Neovim for Newbs. FREE NEOVIM COURSE](https://www.youtube.com/playlist?list=PLsz00TDipIffreIaUNk64KxTIkQaGguqn)).
+This Neovim config is based on the tutorial series [Neovim for Newbs. FREE NEOVIM COURSE](https://www.youtube.com/playlist?list=PLsz00TDipIffreIaUNk64KxTIkQaGguqn)) by [typecraft](https://www.youtube.com/@typecraft_dev).
 
 This config includes:
-1. All the plugins showed in the series of typecraft (tree sitter is not properly installed due to errors in my system for some reason and debugger not included).
-2. 3 extra color schemes: [rose-pine](https://github.com/rose-pine/neovim), [horizon](https://github.com/LunarVim/horizon.nvim), [citruszest](https://github.com/zootedb0t/citruszest.nvim).
-3. 2 extra plugins: [toggleterm.nvim](https://github.com/akinsho/toggleterm.nvim), [barbar.nvim](https://github.com/romgrk/barbar.nvim).
+1. Plugins from [typecraft](https://www.youtube.com/@typecraft_dev)'s (excluding Tree-sitter due to installation issues and debugger).
+2. 3 additional color schemes: [rose-pine](https://github.com/rose-pine/neovim), [horizon](https://github.com/LunarVim/horizon.nvim), [citruszest](https://github.com/zootedb0t/citruszest.nvim).
+3. 2 additional plugins: [toggleterm.nvim](https://github.com/akinsho/toggleterm.nvim), [barbar.nvim](https://github.com/romgrk/barbar.nvim).
 4. LSP server(s) for c, python, html, css, lua (javascript not included)
 
-To use this config you have to download neovim in your system.
+## Installation:
+1. Install Neovim using the terminal.
+  - For windows users, install the [chocolatey](https://chocolatey.org/) package manager.
+  - Use `choco install neovim` in the terminal.
+2. Create a directory named `nvim` inside `C:\Users\user\AppData\Local`.
+3. Unzip the config file into the `nvim` directory. (link to the zip file [releases](https://github.com/NawarAbtahi/Neovim-Config/releases/tag/neovim-config)).
 
-If you are on windows, get the [chocolatey](https://chocolatey.org/) package manager.
+## Using Neovim:
+1. Open your terminal and type `nvim`.
+2. If you want to change the directory, simply use `cd <directory name>` in the terminal or do `:cd <directory name>` in neovim command line.
 
-Open your terminal and use `choco install neovim`.
-
-Then, go to `C:\Users\user\AppData\Local` and make a `nvim` directory.
-Inside the `nvim` directory unzip the config file (here is the zip file [releases](https://github.com/BuildsPixld/Neovim-Config/releases/tag/neovim-config)).
-
---To open neovim
-Open your terminal. type `nvim`.
-If you want to change the directory, simply use `cd <directory name>` in the terminal or do `:cd <directory name>` in neovim command line.
-
-To debug your code-
-Use `<ctrl> + \` it will open the terminal in neovim where you can run `gcc` or `python` code runs!!
+## Debugging using the terminal:
+Press `<ctrl> + \` to open the terminal within Neovim for code execution (e.g., gcc, python).
+N.B: The terminal direction is set to `float` meaning the terminal will open at the center of the screen. To change this go to the nvim directory and then go to the `lua` directory, then go to the `plugins directory` and open the `toggleterm.lua` file or simply use `nvim C:\Users\user\AppData\Local\nvim\lua\plugins\toggleterm.lua` and change
+the `direction` to anything you want (`horizontal`, `float`, `vertical`, `tab`).
