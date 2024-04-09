@@ -25,4 +25,4 @@ This config includes:
 
 ## Debugging using the terminal:
 1. Press `Ctrl + \` to open a floating terminal within Neovim for code execution (e.g., gcc, python).
-2. If you want to change the terminal direction/position(float, horizontal, vertical, tab), edit the `direction` `toggleterm.lua` in `C:\Users\<username>\AppData\Local\nvim\lua\plugins\toggleterm.lua` or just do `nvim C:\Users\user\AppData\Local\nvim\lua\plugins\toggleterm.lua` in the terminal and it will open the file for you
+2. If you want to change the terminal direction/position(float, horizontal, vertical, tab), edit the `direction` in `toggleterm.lua` in `C:\Users\<username>\AppData\Local\nvim\lua\plugins\toggleterm.lua` or just do `nvim C:\Users\<username>\AppData\Local\nvim\lua\plugins\toggleterm.lua` in the terminal and it will open the file for you.
