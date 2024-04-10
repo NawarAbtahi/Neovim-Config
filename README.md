@@ -4,7 +4,7 @@
 
 Neovim configuration of Nawar Abtahi --
 
-This Neovim config is based on the tutorial series [Neovim for Newbs. FREE NEOVIM COURSE](https://www.youtube.com/playlist?list=PLsz00TDipIffreIaUNk64KxTIkQaGguqn)) by [typecraft](https://www.youtube.com/@typecraft_dev).
+This Neovim config is based on the tutorial series ([Neovim for Newbs. FREE NEOVIM COURSE](https://www.youtube.com/playlist?list=PLsz00TDipIffreIaUNk64KxTIkQaGguqn)) by [typecraft](https://www.youtube.com/@typecraft_dev).
 
 This config includes:
 1. Plugins from [typecraft](https://www.youtube.com/@typecraft_dev)'s (excluding Tree-sitter due to installation issues and debugger).
