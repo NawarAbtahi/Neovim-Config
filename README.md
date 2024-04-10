@@ -16,7 +16,7 @@ This config includes:
 1. Install `Neovim` using the terminal.
   - For windows users, install the [chocolatey](https://chocolatey.org/) package manager.
   - Use `choco install neovim` in the terminal.
-2. Create a directory named `nvim` inside `C:\Users\user\AppData\Local`.
+2. Create a directory named `nvim` inside `C:\Users\<user>\AppData\Local`.
 3. Unzip the config file into the `nvim` directory. (link to the zip file [releases](https://github.com/NawarAbtahi/Neovim-Config/releases/tag/neovim-config)).
 
 ## Using Neovim:
