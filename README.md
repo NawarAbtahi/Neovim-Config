@@ -24,5 +24,5 @@ This config includes:
 2. If you want to change the directory, simply use `cd <directory name>` in the terminal or do `:cd <directory name>` in neovim command line.
 
 ## Debugging using the terminal:
-1. Press `Ctrl + \` to open a floating terminal within Neovim for code execution (e.g., gcc, python).
-2. If you want to change the terminal direction/position(float, horizontal, vertical, tab), edit the `direction` in `toggleterm.lua` in `C:\Users\<username>\AppData\Local\nvim\lua\plugins\toggleterm.lua` or just do `nvim C:\Users\<username>\AppData\Local\nvim\lua\plugins\toggleterm.lua` in the terminal and it will open the file for you.
+1. Press `Ctrl + \` to open a `floating` terminal within Neovim for code execution (e.g., gcc, python).
+2. If you want to change the terminal direction/position(`float`, `horizontal`, `vertical`, `tab`), edit the `direction` in `toggleterm.lua` in `C:\Users\<username>\AppData\Local\nvim\lua\plugins\toggleterm.lua` or just do `nvim C:\Users\<username>\AppData\Local\nvim\lua\plugins\toggleterm.lua` in the terminal and it will open the file for you.
