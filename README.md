@@ -13,7 +13,7 @@ This config includes:
 4. LSP server(s) for `c`, `python`, `html`, `css`, `lua` (`javascript` not included)
 
 ## Installation:
-1. Install Neovim using the terminal.
+1. Install `Neovim` using the terminal.
   - For windows users, install the [chocolatey](https://chocolatey.org/) package manager.
   - Use `choco install neovim` in the terminal.
 2. Create a directory named `nvim` inside `C:\Users\user\AppData\Local`.
