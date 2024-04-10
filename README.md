@@ -10,7 +10,7 @@ This config includes:
 1. Plugins from [typecraft](https://www.youtube.com/@typecraft_dev)'s series (excluding Tree-sitter due to installation issues and debugger).
 2. 3 additional color schemes: [rose-pine](https://github.com/rose-pine/neovim), [horizon](https://github.com/LunarVim/horizon.nvim), [citruszest](https://github.com/zootedb0t/citruszest.nvim).
 3. 2 additional plugins: [toggleterm.nvim](https://github.com/akinsho/toggleterm.nvim), [barbar.nvim](https://github.com/romgrk/barbar.nvim).
-4. LSP server(s) for `c`, python, html, css, lua (javascript not included)
+4. LSP server(s) for `c`, `python`, `html`, `css`, `lua` (`javascript` not included)
 
 ## Installation:
 1. Install Neovim using the terminal.
