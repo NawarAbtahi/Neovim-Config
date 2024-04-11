@@ -24,7 +24,7 @@ This config includes:
 2. If you want to change the directory, simply use `cd <directory name>` in the terminal or do `:cd <directory name>` in neovim command line.
 
 ## Using the Telescope plugin:
-The telescope plugin is a plugin to find files quickly of a directory (you have to be in that directory).
+The `telescope` plugin is a plugin to find files quickly of a directory (you have to be in that directory).
 
 To use this, press `Ctrl + p`.
 
